@@ -23,4 +23,4 @@ VKWall-ImagesParser использует такие технологии:
 
 Для работы VKWall-ImagesParser требуется [.NET Framework 4.6.1](https://www.microsoft.com/ru-ru/download/details.aspx?id=49981)
 
-Скачайте все с папки [bin/release](/bin/Release) и запустите файл VKWall-ImagesParser.exe
+Скачайте все с папки *bin/release* и запустите файл VKWall-ImagesParser.exe
