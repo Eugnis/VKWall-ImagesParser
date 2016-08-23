@@ -1,0 +1,11 @@
+c:\users\eugene\documents\visual studio 2015\Projects\VKPosts\VKPosts\bin\Debug\VKPosts.exe.config
+c:\users\eugene\documents\visual studio 2015\Projects\VKPosts\VKPosts\bin\Debug\VKPosts.exe
+c:\users\eugene\documents\visual studio 2015\Projects\VKPosts\VKPosts\bin\Debug\VKPosts.pdb
+c:\users\eugene\documents\visual studio 2015\Projects\VKPosts\VKPosts\bin\Debug\Newtonsoft.Json.dll
+c:\users\eugene\documents\visual studio 2015\Projects\VKPosts\VKPosts\bin\Debug\Newtonsoft.Json.xml
+c:\users\eugene\documents\visual studio 2015\Projects\VKPosts\VKPosts\obj\Debug\VKPosts.Properties.Resources.resources
+c:\users\eugene\documents\visual studio 2015\Projects\VKPosts\VKPosts\obj\Debug\VKPosts.csproj.GenerateResource.Cache
+c:\users\eugene\documents\visual studio 2015\Projects\VKPosts\VKPosts\obj\Debug\VKPosts.exe
+c:\users\eugene\documents\visual studio 2015\Projects\VKPosts\VKPosts\obj\Debug\VKPosts.pdb
+c:\users\eugene\documents\visual studio 2015\Projects\VKPosts\VKPosts\obj\Debug\VKPosts.csprojResolveAssemblyReference.cache
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKPosts\obj\Debug\VKPosts.MainForm.resources

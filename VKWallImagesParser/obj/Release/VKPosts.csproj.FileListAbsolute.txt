@@ -1,0 +1,11 @@
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKPosts\bin\Release\VKPosts.exe.config
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKPosts\bin\Release\VKPosts.exe
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKPosts\bin\Release\VKPosts.pdb
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKPosts\bin\Release\Newtonsoft.Json.dll
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKPosts\bin\Release\Newtonsoft.Json.xml
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKPosts\obj\Release\VKPosts.csprojResolveAssemblyReference.cache
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKPosts\obj\Release\VKPosts.MainForm.resources
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKPosts\obj\Release\VKPosts.Properties.Resources.resources
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKPosts\obj\Release\VKPosts.csproj.GenerateResource.Cache
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKPosts\obj\Release\VKPosts.exe
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKPosts\obj\Release\VKPosts.pdb

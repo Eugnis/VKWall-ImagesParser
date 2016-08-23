@@ -1,0 +1,14 @@
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKPosts\bin\Release\VKWall-ImagesParser.exe.config
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKPosts\bin\Release\VKWall-ImagesParser.exe
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKPosts\bin\Release\VKWall-ImagesParser.pdb
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKPosts\bin\Release\Newtonsoft.Json.dll
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKPosts\bin\Release\Newtonsoft.Json.xml
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKPosts\obj\Release\VKWall-ImagesParser.csprojResolveAssemblyReference.cache
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKPosts\obj\Release\VKWallImagesParser.MainForm.resources
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKPosts\obj\Release\VKWallImagesParser.Properties.Resources.resources
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKPosts\obj\Release\VKWall-ImagesParser.csproj.GenerateResource.Cache
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKPosts\obj\Release\VKWall-ImagesParser.exe
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKPosts\obj\Release\VKWall-ImagesParser.pdb
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKWallImagesParser\bin\Release\VKWall-ImagesParser.exe.config
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKWallImagesParser\obj\Release\VKWall-ImagesParser.exe
+C:\Users\Eugene\Documents\Visual Studio 2015\Projects\VKPosts\VKWallImagesParser\obj\Release\VKWall-ImagesParser.pdb
