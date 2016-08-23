@@ -2,6 +2,8 @@
 
 VKWall-ImagesParser позволяет парсить и скачивать все изображения из постов со стены групп/пабликов/пользовательских страниц Вконтакте. Работает с открытыми стенами и не требует авторизации.
 
+![Скриншот](/screenshot1.PNG "Окно программы")
+
 В текущей версии:
   - Получение числа постов с любой стены ВК
   - Быстрое получение ссылок на изображения и скачивание в любую папку
@@ -21,4 +23,4 @@ VKWall-ImagesParser использует такие технологии:
 
 Для работы VKWall-ImagesParser требуется [.NET Framework 4.6.1](https://www.microsoft.com/ru-ru/download/details.aspx?id=49981)
 
-Скачайте все с папки [bin/release](https://github.com/Eugnis/VKWall-ImagesParser/tree/master/VKWallImagesParser/bin/Release) и запустите файл VKWall-ImagesParser.exe
+Скачайте все с папки [bin/release](/VKWall-ImagesParser/tree/master/VKWallImagesParser/bin/Release) и запустите файл VKWall-ImagesParser.exe
