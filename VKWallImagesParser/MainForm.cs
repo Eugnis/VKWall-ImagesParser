@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.ComponentModel;
@@ -13,6 +13,7 @@ namespace VKWallImagesParser
     {
         private List<Tuple<string, string>> _links;
         private const string ApiPage = "https://api.vk.com/method/";
+        private const string ServiceKey = "4f93df004f93df004f93df00764fc6b31d44f934f93df0015c367b4fac65ac4285a66cb";
 
         public MainForm()
         {
@@ -26,6 +27,7 @@ namespace VKWallImagesParser
                 var wallPageName = groupNameTxtBox.Text;
                 var pCount = decimal.Parse(GetWallPostsCount(wallPageName).ToString());
                 cntNumericUpDown.Value = cntNumericUpDown.Maximum = pCount;
+                parseBtn.Enabled = true;
             }
             else MessageBox.Show("Заполните поле!");
 
@@ -61,6 +63,7 @@ namespace VKWallImagesParser
             const string method = "wall.get";
             var vkParams = new NameValueCollection
             {
+                {"access_token", ServiceKey },
                 {"v", "5.53"},
                 {"domain", wallPageName}
             };
@@ -69,8 +72,9 @@ namespace VKWallImagesParser
             {
                 count = int.Parse(JObject.Parse(response.Content)["response"]["count"].ToString());
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Console.WriteLine(ex);
                 MessageBox.Show("Неправильный адрес стены / страница не общедоступна");
                 //throw;
             }
@@ -93,6 +97,7 @@ namespace VKWallImagesParser
                 //else curCount = quantity - proceedCount;
                 var vkParams = new NameValueCollection
                 {
+                    {"access_token", ServiceKey },
                     {"v", "5.53"},
                     {"domain", wallPageName},
                     {"count", curCount.ToString()},
@@ -134,7 +139,9 @@ namespace VKWallImagesParser
         private void downloadImgBtn_Click(object sender, EventArgs e)
         {
             var FBD = new FolderBrowserDialog();
+            
             if (FBD.ShowDialog() != DialogResult.OK) return;
+            downloadImgBtn.Text = "Скачиваем...";
             downloadImgBtn.Enabled = false;
             parseBtn.Enabled = false;
             checkBtn.Enabled = false;
@@ -182,6 +189,7 @@ namespace VKWallImagesParser
         private void Download_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             var res = (string) e.Result;
+            downloadImgBtn.Text = "Скачать";
             parseBtn.Enabled = true;
             downloadImgBtn.Enabled = true;
             checkBtn.Enabled = true;
@@ -190,7 +198,7 @@ namespace VKWallImagesParser
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-
+            parseBtn.Enabled = false;
         }
     }
 
